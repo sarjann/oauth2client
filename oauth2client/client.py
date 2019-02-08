@@ -931,8 +931,8 @@ class AccessTokenCredentials(OAuth2Credentials):
     def __init__(self, access_token, user_agent, revoke_uri=None):
         """Create an instance of OAuth2Credentials
 
-        This is one of the few types of Credentials that you should construct,
-        Credentials objects are usually instantiated by a Flow.
+        This is one of the few types of Credentials that you should 
+        construct, Credentials objects are usually instantiated by a Flow.
 
         Args:
             access_token: string, access token.
